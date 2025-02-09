@@ -1,52 +1,87 @@
-
 Task Management Application
-This Task Management Application is a comprehensive solution developed using Java Spring Boot. It features robust user authentication, session management and CRUD operations, all backed by secure and scalable technologies. Below is a detailed description of the application, which can be used for your README file on GitHub.
+
+     
 
 Overview
-The Task Management Application is designed to streamline task management processes with the following key features:
 
-User Authentication with JWT: Secure token-based authentication for login and logout.
-Session Management with Redis: Efficient and scalable session storage for token validation and expiry.
-Admin-Only User Creation: Role-based authorization allowing only admins to create new users.
-RESTful API for Task Management: Comprehensive endpoints for creating, reading, updating, and deleting tasks, all secured using JWT tokens.
-MongoDB for Data Storage: Flexible and scalable NoSQL database using MongoDB Atlas.
-Automated Email Notifications: Email notifications using JavaMailSender and scheduled cron jobs.
-Documentation
-For detailed API documentation, please visit the Postman documentation.
+The Task Management Application is a comprehensive solution built using Java Spring Boot to streamline task management. It offers secure authentication, session management, CRUD operations, and automated email notifications, all backed by scalable technologies.
 
 Features
-1. User Authentication with JWT
-Implements secure token-based authentication.
-Supports login and logout functionalities.
-2. Session Management with Redis
+
+🔐 User Authentication with JWT
+
+Secure token-based authentication using JWT.
+
+Login and logout functionalities.
+
+
+🚀 Session Management with Redis
+
 Uses Redis for efficient and scalable session storage.
-Manages token validation and expiry.
-3. Admin-Only User Creation
-Role-based access control ensures that only admins can create new users.
-Enhances security and user management.
-4. RESTful API for Task Management
-Provides endpoints for creating, reading, updating, and deleting tasks.
-All endpoints are secured using JWT tokens to ensure data security.
-5. MongoDB for Data Storage
-Utilizes MongoDB Atlas for flexible and scalable NoSQL data storage.
+
+Ensures token validation and expiry.
+
+
+👮 Role-Based Access Control
+
+Admin-only user creation for better security.
+
+Restricts access to sensitive endpoints.
+
+
+📝 RESTful API for Task Management
+
+CRUD operations (Create, Read, Update, Delete) for tasks.
+
+JWT token security for all API endpoints.
+
+
+💾 MongoDB for Data Storage
+
+Uses MongoDB Atlas (NoSQL) for scalable and flexible data storage.
+
 Ensures high availability and performance.
-6. Automated Email Notifications
-Integrates JavaMailSender for sending automated email notifications.
-Uses scheduled cron jobs for timely email delivery as per task due date.
-Automatic email will be send to the users having task assigned and if task is not completed.
-Technologies Used
-Java
-Spring Boot
-Spring Java Mail Sender
-Spring Security
+
+
+📩 Automated Email Notifications
+
+Uses JavaMailSender for automated email notifications.
+
+Scheduled cron jobs send reminders for task due dates.
+
+Emails are sent to users with assigned tasks and pending tasks.
+
+
+🛠 Technologies Used
+
+Java 17+
+
+Spring Boot (Spring Security, Spring Data, Spring Mail)
+
 JWT (JSON Web Token)
-Redis
-MongoDB
-Prerequisites
-Java 17 or higher
+
+Redis (Session Management)
+
+MongoDB Atlas
+
 Gradle
-MongoDB
+
+
+📌 Prerequisites
+
+Ensure you have the following installed before running the project:
+
+Java 17 or higher
+
+Gradle
+
+MongoDB Atlas (or a local MongoDB instance)
+
 Redis
-Any IDE
-Contribution
-If you would like to contribute to the project, please fork it. I will send you the gradle.properties file. You can also reach out to me via email at
+
+Any IDE (IntelliJ, VS Code, Eclipse)
+
+
+📜 License
+
+This project is licensed under the MIT License.
