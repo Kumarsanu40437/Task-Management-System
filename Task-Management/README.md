@@ -77,6 +77,6 @@ To get started with the project, follow these steps:
 
 By following the guidelines above, you will be able to set up and run the Task Management Application seamlessly. 
 
-For any issues or queries, feel free to contact me at navishsingh242892@gmail.com.
+For any issues or queries, feel free to contact me at kumarsanu40437@gmail.com.
 
 ---
