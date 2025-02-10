@@ -64,7 +64,7 @@ For detailed API documentation, please visit the [Postman documentation](https:/
 
 ## Contribution
 
-If you would like to contribute to the project, please fork it. I will send you the `gradle.properties` file. You can also reach out to me via email at navishsingh242892@gmail.com.
+If you would like to contribute to the project, please fork it. I will send you the `gradle.properties` file. You can also reach out to me via email at kumarsanu40437@gmail.com
 
 ## Getting Started
 
